@@ -2,6 +2,7 @@
 @use 'infosbar';
 @use 'button';
 @use 'event';
+@use 'variables';
 
 
 * {
@@ -9,7 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: roboto, sans-serif;
-    color: #fff;
+    color: variables.$textColor;
     list-style: none;
     
 }
